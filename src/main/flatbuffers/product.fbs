@@ -1,0 +1,10 @@
+namespace br.com.williamrocha.flatbuffer;
+
+table Product {
+    id: int;
+    name: string;
+    description: string;
+    part_number: string;
+}
+
+root_type Product;
